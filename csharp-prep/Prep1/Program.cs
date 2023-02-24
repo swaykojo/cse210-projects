@@ -7,14 +7,17 @@ namespace Prep1
         static void Main(string[] args)
         {
             Console.WriteLine("This is prep 1");
-
+            
+            // Asking user for their first name 
             Console.Write("What is your first name? ");
-            string first=Console.ReadLine();
-
+            string firstName = Console.ReadLine(); 
+            
+            // Asking user for their last name 
             Console.Write("What is your last name? ");
-            string last=Console.ReadLine();
+            string lastName = Console.ReadLine(); 
 
-            Console.WriteLine($"Your name is {last}, {first} {last}.");
+            // print out user last name and first name 
+            Console.WriteLine($"Your name is {lastName}, {firstName} {lastName}.");
         }
     }
 }
